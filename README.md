@@ -64,16 +64,108 @@ I'm a **Software Developer & AI Engineer** with **3+ years at Tata Consultancy S
 ## 🚀 Featured Projects
 
 ### 🔍 Explainable Credit Risk Model
-> XGBoost + Random Forest + Logistic Regression on 50K+ loan records · **92% accuracy · AUC-ROC 0.96** · SHAP & LIME explainability · Reduced auditor review time by 40%
+
+> Predicting loan default risk with full regulatory-grade explainability using ensemble methods and SHAP/LIME.
+
+| Metric | Value |
+|--------|-------|
+| 📊 Dataset | 50,000+ loan records |
+| 🎯 Accuracy | 92% |
+| 📈 AUC-ROC | 0.96 |
+| ⏱️ Auditor review time | ↓ 40% |
+
+**Models:** XGBoost · Random Forest · Logistic Regression  
+**Explainability:** SHAP (global + local feature importance) · LIME (instance-level explanations)
+
+**Highlights:**
+- Trained and compared three models; XGBoost achieved best AUC-ROC at 0.96
+- Integrated SHAP summary plots and waterfall charts for model transparency
+- LIME explanations surfaced per-prediction reasoning for compliance audits
+- Reduced manual auditor review time by 40% through automated explanation reports
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-FF6600?style=flat-square&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
+![SHAP](https://img.shields.io/badge/SHAP-7B5CFF?style=flat-square&logoColor=white)
+![LIME](https://img.shields.io/badge/LIME-00D4AA?style=flat-square&logoColor=white)
+
+---
 
 ### 🏥 Medical Disease Prediction System
-> Multi-disease classifier (SVM, RF, Neural Networks) on 20K+ patient records · **95% accuracy · 98% recall** · 30+ engineered clinical features · 18% reduction in false negatives
+
+> Multi-disease classifier for early clinical diagnosis across several conditions using engineered clinical features.
+
+| Metric | Value |
+|--------|-------|
+| 📊 Dataset | 20,000+ patient records |
+| 🎯 Accuracy | 95% |
+| 🔴 Recall | 98% |
+| 🔬 Features engineered | 30+ clinical features |
+| ✅ False negative reduction | 18% |
+
+**Models:** Support Vector Machine (SVM) · Random Forest · Neural Networks
+
+**Highlights:**
+- Engineered 30+ domain-informed clinical features (vitals, lab ratios, symptom composites)
+- Achieved 98% recall — minimizing missed diagnoses in high-stakes clinical scenarios
+- Reduced false negatives by 18% vs baseline through threshold tuning and ensemble voting
+- Benchmarked SVM, RF, and NN across multiple disease targets; best model selected per condition
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+![Keras](https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=keras&logoColor=white)
+
+---
 
 ### 🧬 Genetic Algorithm Optimizer (Knapsack)
-> DEAP Genetic Algorithm across 1,000+ combinations · **97% optimal solution rate** in 50 generations · 60× faster than brute-force · 45% faster convergence
+
+> Evolutionary optimizer solving the 0/1 Knapsack problem — 60× faster than brute-force with near-optimal results.
+
+| Metric | Value |
+|--------|-------|
+| 🔢 Search space | 1,000+ item combinations |
+| 🏆 Optimal solution rate | 97% |
+| ⚡ Speed vs brute-force | 60× faster |
+| 📉 Convergence improvement | 45% faster |
+| 🔄 Generations to converge | 50 |
+
+**Algorithm:** DEAP Genetic Algorithm (selection · crossover · mutation)
+
+**Highlights:**
+- Implemented full GA pipeline: population init, fitness evaluation, tournament selection, uniform crossover, and bit-flip mutation
+- Tuned population size, crossover rate, and mutation probability to maximize convergence speed
+- 97% optimal solution rate across 1,000+ test combinations within 50 generations
+- 45% faster convergence vs standard GA baseline through adaptive parameter tuning
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![DEAP](https://img.shields.io/badge/DEAP-7B5CFF?style=flat-square&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat-square&logoColor=white)
+
+---
 
 ### 🤖 LangGraph AI Agent
-> Multi-step AI agent built with LangGraph for autonomous task planning and execution
+
+> Autonomous multi-step AI agent built with LangGraph for dynamic task planning, tool use, and execution.
+
+| Feature | Detail |
+|---------|--------|
+| 🧠 Framework | LangGraph (stateful agent graphs) |
+| 🔄 Architecture | Multi-node DAG with conditional routing |
+| 🛠️ Capability | Autonomous task planning & execution |
+| 🔗 Tools | Integrated external tools & APIs |
+
+**Highlights:**
+- Designed a stateful LangGraph pipeline with planning, tool-calling, and reflection nodes
+- Implemented conditional edge routing to dynamically re-plan based on intermediate results
+- Agent autonomously decomposes high-level goals into sub-tasks and executes them sequentially
+- Supports human-in-the-loop checkpoints for approval on critical steps
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
 
 ---
 
